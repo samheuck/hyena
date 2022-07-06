@@ -3,12 +3,10 @@ Hyena
 
 A Node.js Mongoose like ORM for MySQL
 
-[ ![Codeship Status for plus3network/hyena](https://www.codeship.io/projects/230b87c0-27ff-0131-e0d9-2a84b7e12546/status?branch=master)](https://www.codeship.io/projects/9023) [![Build Status](https://travis-ci.org/plus3network/hyena.png?branch=master)](https://travis-ci.org/plus3network/hyena)
-
 ## Install
 
 ```
-npm install hyena 
+npm install hyena
 ```
 
 ## Example
@@ -74,7 +72,7 @@ var user = new User({ name: 'Jon Doe', email: 'jon.doe@example.com', clubhouse: 
 
 async.auto({
   cause: function (callback) {
-    cause.save(callback); 
+    cause.save(callback);
   },
   sponsor: function (callback) {
     sponsor.save(callback);
